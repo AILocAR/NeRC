@@ -8,7 +8,7 @@ The codes are the implementation of the following paper that has been accepted b
 ## Configure Running Environment
 This section introduces how to set up the environment to run NeRC from scratch, step by step. We also provide an environment file for rapid configuration:
 
-`$ conda env create -f environment_nerc.yml`
+`$ conda env create -f nerc_environment.yml`
 
 However, it would be better to follow the guides to set up your own environment.
 
