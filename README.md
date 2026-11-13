@@ -20,6 +20,9 @@ However, it would be better to follow the guides to set up your own environment.
 
 Other versions of Python, PyTorch, and CUDA may also work. However, for rapid replication of our results, we recommend the settings above, primarily to facilitate the installation of <a href="https://github.com/facebookresearch/theseus">Theseus</a>.
 
+### NEW!
+We have tried Theseus and verified our NeRC model on ARM CPU with or without NVIDIA GPU. If you use MacOS, even though training can not be performed, you can still try NeRC for inference. Kindly check: <a href="https://github.com/AILocAR/theseus_aarch64">Theseus for ARM64/AArch64 CPU</a> .
+
 ### Step-by-step Guide:
 * Create a new environment using <a href="https://www.anaconda.com/docs/getting-started/miniconda/install#linux-terminal-installer">conda</a>: `$ conda create --name nerc python=3.10 -y`
 * Activate the nerc environment: `$ conda activate nerc`
